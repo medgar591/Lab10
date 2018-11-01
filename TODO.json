@@ -10,14 +10,14 @@
             "Actual Time (Minutes)": 2
         },
         {
-            "Description": "",
+            "Description": "Complete Fibonacci method",
             "Estimated Time (Minutes)": 10,
             "Actual Time (Minutes)": 2
         },
         {
-            "Description": "",
-            "Estimated Time (Minutes)": 0,
-            "Actual Time (Minutes)": 0
+            "Description": "Complete Tree subclass",
+            "Estimated Time (Minutes)": 10,
+            "Actual Time (Minutes)": 6
         },
         {
             "Description": "",
