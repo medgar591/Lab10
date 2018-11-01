@@ -161,7 +161,20 @@
      */
     public int treeSum(Tree tree)
     {
-        //TODO
+        if (tree.getChildren().isEmpty())
+        {
+            return tree.getValue();
+        }
+        else
+        {
+            int total = 0;
+            for (Tree t : tree.getChildren())
+            {
+                total += t.getValue();
+                total += treeSum(t);
+            }
+            return total;
+        }
     }
 
     /**
