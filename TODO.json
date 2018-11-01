@@ -5,9 +5,9 @@
     "OU EMAIL": "Matthew.A.Edgar-1@ou.edu",
     "Tasks": [
         {
-            "Description": "",
-            "Estimated Time (Minutes)": 0,
-            "Actual Time (Minutes)": 0
+            "Description": "Complete Factorial method",
+            "Estimated Time (Minutes)": 5,
+            "Actual Time (Minutes)": 2
         },
         {
             "Description": "",
@@ -33,6 +33,6 @@
             "Description": "",
             "Estimated Time (Minutes)": 0,
             "Actual Time (Minutes)": 0
-        },
+        }
     ]
 }
