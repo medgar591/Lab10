@@ -36,23 +36,6 @@
          {
              return value * (factorial (value - 1));
          }
-        /*
-         * Here is the base case (ending condition): value == 1.
-         * This lets our recursion know when to stop.
-         */
-
-        // TODO
-
-        /*
-         * Here is the recursive statement. The function calls itself when the base case is not met.
-         * Something is altered when the function makes a new call to itself. In this case, the value
-         * is updated. Specifically, it is decremented by 1.
-         * 
-         * By doing this, we break up the equation n! into n! = n * (n-1)!.
-         */
-
-        // TODO
-
     }
 
     /**
@@ -73,9 +56,19 @@
      */
 public int fibonacci(int n)
 {
-
-
-	//TODO
+	if (n <= 1)
+	{
+	    return n;
+	}
+	else if(n == 2)
+	{
+	    return 1;
+	}
+	else
+	{
+	    return fibonacci(n-1) + fibonacci(n-2);
+	}
+}
 
 
     
